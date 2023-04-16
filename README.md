@@ -21,6 +21,14 @@ An image editing tool that enables photographers to edit their photos and make t
                                    3. Tailwind(Framework)
                                    
                                    4. JavaScript
+                             
+### ⭐  Other tools used : 
+
+                                   1. VsCode
+                                   
+                                   2. GitHub 
+                                   
+                                   3. Git 
                                    
                                   
 ### ⭐ Representation :
