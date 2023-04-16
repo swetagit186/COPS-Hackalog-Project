@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Artsy Clicks</title>
+    <style>
+        .background{
+            background-size: 100% 100%;
+        }
+        /* .btn::before{
+            position: absolute;
+        background-color: #fff;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        z-index: -1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: all 0.8s;
+        }
+        .btn:hover::before {
+        transform: scaleX(1);
+        }
+        .btn:hover {
+        border: solid 3px var();
+        color: black;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <nav class="bg-black">
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+            <a href="/" class="cursor-pointer py-7 pr-7">
+                <img src="./images/Adobe_Express_20230411_1454430_1.png" width="125px" height="30px">
+            </a>
+            <ul class="flex space-x-6">
+                <li class="text-white font-mullish py-7 hover:text-grayText 
+                cursor-pointer transition duration-200 relative group">
+                <a href="#home">Home</a>
+                <div class="absolute bottom-0 w-full h-1 bg-grayText hidden group-hover:block">
+                    
+                </div>
+                </li>
+                <li class="text-white font-mullish py-7 hover:text-grayText 
+                cursor-pointer transition duration-200 relative group">
+                <a href="#artists" >Artists</a>
+                <div class="absolute bottom-0 w-full h-1 bg-grayText hidden group-hover:block">
+                    
+                </div>
+                </li>
+                <li class="text-white font-mullish py-7 hover:text-grayText 
+                cursor-pointer transition duration-200 relative group">
+                <a href="#types" >Types</a>
+                <div class="absolute bottom-0 w-full h-1 bg-grayText hidden group-hover:block"></div>
+                </li>
+                <li class="text-white font-mullish py-7 hover:text-grayText 
+                cursor-pointer transition duration-200 relative group">
+                <a href="./Image Gallery/index.html" target=”_blank”>Explore</a>
+                <div class="absolute bottom-0 w-full h-1 bg-grayText hidden group-hover:block"></div>
+                </li>
+                
+            </ul>
+            <div class="flex space-x-6">
+                <img src="./images/icon.jpeg" alt="" class="h-12 w-12 hover:blue-500 cursor-pointer">
+                <button class="py-3 px-5 font-mullish text-white border-gray-500 border rounded text-sm  ">
+                    Log In
+                </button>
+                <button class="py-3 px-4 text-black font-mullish text-sm  rounded-sm bg-white transition-all duration-200 hover:text-grayText ">
+                    Sign Up 
+                </button>
+            </div>
+        </div>
+    </nav>
+    <section class="relative bg-white" id="home">
+    <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto ">
+        <!--left part-->
+        <div class="space-y-8">
+            <h1 class="font-mullish font-bold text-[40px] leading-[1.2]">Let the pieces of art dwell in one place</h1>
+            <div class="w-6 h-1 bg-black"></div>
+            <p class="font-mullish text-[18px] leading-7 text-black  opacity-70">
+               A one stop destination to create an impact on the world and let people know about your artistic skills.</p>
+            <button class="bg-black text-white  py-[14px] px-[18px] rounded-md font-mullish font-bold
+          hover:bg-grayText transition-all duration-200"
+          >Sign Up Now</button>
+      </div>
+      <!--right part-->
+      <img src="./images/cover.jpeg" alt=""
+      class="w-full max-w-[680px] py-20 hover:scale-105 transition-all duration-200">
+  </div>
+
+  <!--shape part-->
+  <div class="w-[103%] absolute left-0 right-0">
+      <img src="./images/hero-shape.svg" alt=""
+      class="w-full object-fill ">
+  </div>
+
+  </section>
+  <h1 class="absolute text-[7rem] -bottom-[9rem] -left-2  text-gray-500 font-bold  opacity-30">Artsy Clicks</h1>
+  <br><br><br><br>
+  <section class="bg-slate-100">
+    <section class="text-grayBlue text-[70px] items-center text-center pt-[30px]  " id="types">Types of Photography</section>
+    <section class="h-full max-w-[1200px] mx-auto">
+        <h1 class="px-[100px] py-[80px] text-center bottom-[20px] text-[3rem] mt-10 text-white  shadow-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Nature</h1>
+        <div class="flex flex-wrap justify-between ">
+            <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+                <img src="./images/n1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+                <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+            </figure>
+            <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+                <img src="./images/n2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+                <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+            </figure>
+            <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+                <img src="./images/n3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+                <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+            </figure>
+        </div>
+        <!-- <a href="" class="italic underline" >Click here to see more on nature</a> -->
+    </section>
+    <section class="h-full max-w-[1200px] mx-auto">
+    <h1 class="px-[100px] py-[80px] text-center bottom-[30px] text-white shadow-2xl mt-10 text-[3rem] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Travel</h1>
+    <div class="flex flex-wrap justify-between ">
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+            <img src="./images/t1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/t2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/t3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+        </figure>
+    </div>
+    </section>
+    <section class="h-full max-w-[1200px] mx-auto">
+    <h1 class="px-[150px] py-[80px] text-center bottom-[20px] text-[3rem] mt-10 text-white  shadow-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Portraits</h1>
+    <div class="flex flex-wrap justify-between ">
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+            <img src="./images/p1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/p2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/p3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+        </figure>
+    </div>
+    </section>
+    <section class="h-full max-w-[1200px] mx-auto">
+    <h1 class="px-[100px] py-[80px] text-center bottom-[20px] text-[3rem] mt-10 text-white  shadow-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Still Life</h1>
+    <div class="flex flex-wrap justify-between ">
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+            <img src="./images/s1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/s2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/s3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+        </figure>
+    </div>
+    </section>
+    <section class="h-full max-w-[1200px] mx-auto">
+    <h1 class="px-[100px] py-[80px] text-center bottom-[20px] text-[3rem] mt-10 text-white  shadow-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Wildlife</h1>
+    <div class="flex flex-wrap justify-between ">
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+            <img src="./images/w1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/w2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/w3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+        </figure>
+    </div>
+    </section>
+    <section class="h-full max-w-[1200px] mx-auto">
+    <h1 class="px-[100px] py-[80px] text-center bottom-[20px] text-[3rem] mt-10 shadow-2xl text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Macrophotography</h1>
+    <div class="flex flex-wrap justify-between ">
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+            <img src="./images/m1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/m2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/m3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+        </figure>
+    </div>
+    </section>
+    <section class="h-full max-w-[1200px] mx-auto relative">
+    <h1 class="px-[100px] py-[80px] text-center bottom-[20px] text-[3rem] mt-10 shadow-2xl text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">Fine Art</h1>
+    <div class="flex flex-wrap justify-between ">
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105  ">
+            <img src="./images/f1.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹200</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/f2.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹500</figcaption>
+        </figure>
+        <figure class="relative bottom-20 overflow-hidden hover:scale-105">
+            <img src="./images/f3.jpeg" alt="" class="w-full h-full grayscale shadow-gray-700 object-cover hover:grayscale-0">
+            <figcaption class="absolute bottom-0 left-0 p-[25px] w-full h-20 text-[15px] text-white opacity-0 hover:opacity-100 transition-opacity">₹450</figcaption>
+        </figure>
+    </div>
+    </section>
+  </section>
+  <!-- About Artists -->
+  <section class="relative " id="artists">
+
+    <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+
+      <img src="./images/feature-section1-dottedrows.png" alt=""
+      class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
+
+      <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead text-center">An Experience
+        <br>People Love to Talk About</h2>
+      <div class="w-6 h-1 bg-black mx-auto my-4"></div>
+
+
+    <!--left button -->
+    <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2
+     flex justify-center items-center ">
+      <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
+      mix-blend-multiply">
+        <i
+        data-feather="chevron-right"
+        class="stroke-[5px] w-6 h-6  text-gray-400 rotate-180"
+      ></i>
+      </div>
+    </button>
+
+        <!--right button -->
+    <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2
+    flex justify-center items-center ">
+          <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
+          mix-blend-multiply">
+            <i
+            data-feather="chevron-right"
+            class="stroke-[5px] w-6 h-6  text-gray-400"
+          ></i>
+          </div>
+    </button>
+
+
+    <!-- main content -->
+    <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
+      <!--left image -->
+      <img src="./images/pho.jpeg" alt=""
+      height="320px"
+      width="320px"
+      class="rounded-xl">
+
+      <!-- right part-->
+      <div class="max-w-[400px]">
+        <img src="./images/quotes.svg" alt=""
+        width="35px"
+        height="40px"
+        class="-mb-2">
+        <p class="font-mullish text-3xl font-extralight">
+            I wanted to capture my inner perception of the world around me</p>
+        <a href="https://en.wikipedia.org/wiki/Alexey_Titarenko" target=”_blank”  class="text-grayText italic underline">Learn More</a>
+        <p class="font-mullish font-extrabold text-2xl">Alexey Titarenko</p>
+        <p class="font-mullish font-medium">Photographer and Visual Artist</p>
+        <img src="./images/cameraicon.png" alt="" width="80px" height="40px">
+      </div>
+    </div>
+
+    <!-- 6 dot  div-->
+    <div class="w-full flex flex-row mx-auto space-x-2 justify-center">
+      
+      <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+      <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
+
+      <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+      <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+      <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+      <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+    </div>
+  </div>
+
+  </section>
+  <!-- form -->
+  <section class="mt-[25px] flex   items-center justify-center  bg-slate-200 w-full  ">
+    <div>
+        <h1 class="text-[5rem] text-red-600 pt-[2rem] text-center">Contact Us</h1>
+        <h3 class="text-[3rem] text-grayText mx-auto text-center">Anything you want to share with us?</h3>
+    <div class="mt-[25px] flex   items-center justify-center ">
+        <form action="" class="flex flex-col gap-[30px] w-70 mx-[2rem] my-[3rem]">
+            <div class="w-full">
+                <input class="w-full h-[42px] px-0 py-[2rem] text-[18px] mt-[27px] rounded-lg shadow-lg shadow-gray-700 border-none" 
+                      type="text" 
+                      name="name" 
+                      placeholder="Enter your name" />
+    
+                      <input class="w-full h-[42px] px-0 py-[2rem] text-[18px] mt-[27px] rounded-lg shadow-lg shadow-gray-700 border-none" 
+                      type="email" 
+                      name="email" 
+                      id="" 
+                      placeholder="Enter your email address" />
+    
+                      <input class="w-full h-[42px] px-0 py-[2rem] text-[18px] mt-[27px] rounded-lg shadow-lg shadow-gray-700 border-none" 
+                      type="number" 
+                      name="Number" 
+                      id="" 
+                      placeholder="Enter your subject" />
+    
+                      <textarea name="" 
+                      cols="30" rows="10" 
+                      class="w-full h-[42px] px-0 py-[2rem] text-[18px] mt-[27px] rounded-lg shadow-lg shadow-gray-700 border-none h-auto pt-[1rem]"
+                      placeholder="Enter your message"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="border-none text-2xl mx-[1rem] my-0 hover:scale-105 transition-all duration-200 bg-red-500 px-[2rem] py-[1rem] 
+                 text-white hover:text-black hover:bg-white shadow-grayText cursor-pointer btn">
+                    Send Message
+                </button>
+            </div>
+        </form>
+        
+    </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="relative -mt-[1px] bg-black p-[5rem] overflow-hidden">
+    <div class="container">
+      <div class="flex gap=[1rem] p-[1.2rem] justify-between items-center">
+        <div class="absolute left-0 bottom-0 text-gray-400  select-none text-8xl opacity-50">Artsy Clicks</div>
+
+        <div class="flex gap-[1.2rem]">
+          <div>
+            <a href="#artists" class="text-white decoration-none hover:text-grayText cursor-pointer transition duration-200">Artists</a>
+          </div>
+          <div>
+            <a href="#types" class="text-white decoration-none hover:text-grayText cursor-pointer transition duration-200">Types</a>
+          </div>
+          <div>
+            <a href="#" class="text-white decoration-none hover:text-grayText cursor-pointer transition duration-200">Explore</a>
+          </div>
+        </div>
+
+      </div>
+      <div></div>
+    </div>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+
+    <script src="index.js"></script>
+</body>
+</html>
