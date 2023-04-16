@@ -4,6 +4,7 @@ Find the Project [here](https://artsyclicks.netlify.app/#)
 
 ### ⭐ About The Project: 
 OVERVIEW
+
 To provide a platform to the aspiring photographers to showcase their artistic talents and give them an opportunity to earn money through it by selling it online.It would provide a platform for photographers to showcase and sell their work directly to buyers. The platform would also offer various tools to support artists in their work, including image editing tools, a community of fellow photographers, and educational resources.
 
 GOALS
