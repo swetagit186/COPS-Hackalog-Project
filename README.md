@@ -42,14 +42,18 @@ An image editing tool that enables photographers to edit their photos and make t
 
 <img width="1440" alt="Landing page" src="./images/front page.png">
 
+## Artists Page:
 
-## About Page:
+<img width="1440" alt="Landing page" src="./images/Artists page.png">
 
-<img width="1440" alt="about" src="https://u.githubusercontent.com/96643952/196163002-6c06aa64-37cc-4b3c-aacb-19f9fb710f03.png">
+## Types Page:
 
-## Shop Page:
+<img width="1440" alt="about" src="./images/Types page.png">
 
-<img width="1440" alt="Shop Page" src="https://user-images.githubusercontent.com/96643952/193729-4bbdc7e4-e7b0-4d6f-8cb3-809f8865b4e4.png">
+## Explore Page:
+
+<img width="1440" alt="about" src="./images/explore page.png">
+
 
 ## Detailed View of the Product:
 
