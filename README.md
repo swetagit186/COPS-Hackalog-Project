@@ -1,6 +1,6 @@
 #Artsy Clicks-A website for photographers
 
-Find the Project [here](https://artsyclicks.netlify.app/#)
+Find the Project [here](https://artsyclicks.netlify.app/)
 
 ### ⭐ About The Project: 
 OVERVIEW
