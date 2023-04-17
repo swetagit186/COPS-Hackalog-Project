@@ -40,7 +40,7 @@ An image editing tool that enables photographers to edit their photos and make t
 
 ## Landing Page:
 
-<img width="1440" alt="Landing page" src="https://user-images.githubusercontent.com/96643952/59-6e91eecf-395b-4867-bbe1-086765d62308.png">
+<img width="1440" alt="Landing page" src="./images/front page.png">
 
 
 ## About Page:
