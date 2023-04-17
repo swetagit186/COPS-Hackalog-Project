@@ -44,7 +44,7 @@ An image editing tool that enables photographers to edit their photos and make t
 
 ## Artists Page:
 
-<img width="1440" alt="Landing page" src="./images/Artists page.png">
+<img width="1440" alt="Landing page" src="./images/Artists Page.png">
 
 ## Types Page:
 
